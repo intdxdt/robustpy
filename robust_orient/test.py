@@ -1,5 +1,5 @@
 import unittest
-from rubust_orient import orientation2d, orientation3d
+from robust_orient import orientation2d, orientation3d
 
 class TestRobustOrient(unittest.TestCase):
     def test_orient_2d(self):

@@ -1,4 +1,4 @@
-from rubust_orient import orientation2d
+from robust_orient import orientation2d
 
 def segments_intersect(a0, a1, b0, b1):
     x0 = orientation2d(a0, b0, b1)
