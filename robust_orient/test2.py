@@ -28,5 +28,16 @@ def plotPredicate(pred, out):
 
 
 if __name__ == '__main__':
-    plotPredicate(naiveLeftRight, 'pynaive.js')
-    plotPredicate(orientation2d, 'pyrobust.js')
+    # plotPredicate(naiveLeftRight, 'pynaive.js')
+    # plotPredicate(orientation2d, 'pyrobust.js')
+
+    a = (237, 289)
+    b = (404.25, 357.25)
+    c = (460, 380)
+
+    # c = (548.533232040746, 416.127910832771)
+    print naiveLeftRight(a, b, c)
+    print orientation2d(a, b, c)
+    # ln = LineString([a, b])
+    # print ln.intersects(Point(c))
+    # print ln.distance(Point(c))

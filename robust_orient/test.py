@@ -1,6 +1,7 @@
 import unittest
 from robust_orient import orientation2d, orientation3d
 
+
 class TestRobustOrient(unittest.TestCase):
     def test_orient_2d(self):
         self.assertEqual(orientation2d([0.1, 0.1], [0.1, 0.1], [0.3, 0.7]), 0)

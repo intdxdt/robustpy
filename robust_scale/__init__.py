@@ -16,7 +16,7 @@ def scaleLinearExpansion(e, scale):
         ts = two_product(e[0], scale)
         if ts[0]:
             return ts
-        return (ts[1],)
+        return ts[1],
 
     g = [0] * (2 * n)
     q = [0.1, 0.1]
