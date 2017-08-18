@@ -2,7 +2,7 @@ import math
 import unittest
 from random import random
 
-from robust_diff import robust_subtract
+from subtract import robust_subtract
 
 
 class TestRobustDiff(unittest.TestCase):

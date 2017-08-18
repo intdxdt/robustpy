@@ -1,4 +1,4 @@
-from robust_diff import robust_subtract
+from subtract import robust_subtract
 from scale import robust_scale
 from rsum import robust_sum
 from two_product import two_product

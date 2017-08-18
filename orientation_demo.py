@@ -1,6 +1,6 @@
 import json
 import math
-from robust_orient import orientation2d
+from orientation import orientation2d
 
 NX = 512
 NY = 512

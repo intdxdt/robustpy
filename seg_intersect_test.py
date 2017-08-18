@@ -1,5 +1,5 @@
 import unittest
-from robust_segment_intersect import segments_intersect as crosses
+from seg_intersect import segments_intersect as crosses
 
 
 class TestRobustSegIntersect(unittest.TestCase):
