@@ -1,7 +1,7 @@
 import math
 import unittest
 from random import random
-from robust_scale import robust_scale
+from scale import robust_scale
 from two_product import two_product
 
 

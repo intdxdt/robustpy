@@ -1,13 +1,13 @@
-from robust_diff import robust_diff
-from robust_scale import robust_scale
-from robust_sum import robust_sum
+from robust_diff import robust_subtract
+from scale import robust_scale
+from rsum import robust_sum
 from two_product import two_product
 
 EPSILON = 1.1102230246251565e-16
 ERRBOUND3 = (3.0 + 16.0 * EPSILON) * EPSILON
 ERRBOUND4 = (7.0 + 56.0 * EPSILON) * EPSILON
 
-sub = robust_diff
+sub = robust_subtract
 sum = robust_sum
 prod = two_product
 scale = robust_scale

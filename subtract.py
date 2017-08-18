@@ -1,4 +1,4 @@
-def robust_diff(e, f):
+def robust_subtract(e, f):
     """
     robust subtraction
     :param e:

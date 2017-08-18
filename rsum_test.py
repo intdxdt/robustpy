@@ -1,6 +1,6 @@
 import math
 import unittest
-from robust_sum import robust_sum
+from rsum import robust_sum
 
 class TestRobustSum(unittest.TestCase):
     def test_sum(self):
