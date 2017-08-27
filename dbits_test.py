@@ -3,7 +3,7 @@ from dbits import *
 
 
 class TestDoubleBits(unittest.TestCase):
-    def test_sum(self):
+    def test_db(self):
         self.assertEqual(lo(1.0), 0)
         self.assertEqual(hi(1.0), 0x3ff00000)
         self.assertEqual(pack(0, 0x3ff00000), 1.0)
