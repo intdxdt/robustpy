@@ -1,9 +1,13 @@
+import compare_test
 import compress_test
 import dbits_test
+import det_test
 import orientation_test
+import rprod_test
 import rsum_test
 import scale_test
-import seg_intersect_test
+import seg_intersection_test
+import seg_intersects_test
 import subtract_test
 import test_overlap_test
 import twiddle_test

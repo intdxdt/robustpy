@@ -1,6 +1,6 @@
 from orientation import orientation2d
 
-def segments_intersect(a0, a1, b0, b1):
+def segment_intersects(a0, a1, b0, b1):
     x0 = orientation2d(a0, b0, b1)
     y0 = orientation2d(a1, b0, b1)
 
