@@ -167,4 +167,4 @@ def scalar_scalar(a, b):
     y = ar + br
     if y:
         return y, x
-    return (x,)
+    return x,

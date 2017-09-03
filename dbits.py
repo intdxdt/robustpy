@@ -96,4 +96,3 @@ def fraction(n):
 def denormalized(n):
     h = hi(n)
     return (h & 0x7ff00000) == 0
-

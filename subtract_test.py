@@ -1,8 +1,8 @@
 import math
 import unittest
 from random import random
-
 from subtract import robust_subtract
+from validate import validate_sequence as validate
 
 
 class TestRobustDiff(unittest.TestCase):
@@ -11,7 +11,7 @@ class TestRobustDiff(unittest.TestCase):
         s = [0]
         for i in range(0, 100):
             s = robust_subtract(s, [random() * math.pow(2, random() * 1000)])
-            # self.assertTrue(validate(s))
+            self.assertTrue(validate(s))
 
 
 suite = unittest.TestLoader().loadTestsFromTestCase(TestRobustDiff)

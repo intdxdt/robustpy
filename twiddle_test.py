@@ -117,7 +117,7 @@ class TestTwiddle(unittest.TestCase):
 
     def test_reverse(self):
         self.assertEqual(reverse(0), 0)
-        #    self.assertEqual(reverse(-1), -1)
+        # self.assertEqual(reverse(-1), -1)
 
     def test_next_combination(self):
         self.assertEqual(next_combination(1), 2)

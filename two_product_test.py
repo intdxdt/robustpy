@@ -4,21 +4,15 @@ from random import random
 from two_product import two_product
 
 testValues = [
-    0,
-    1,
+    0, 1,
     math.pow(2, -52),
     math.pow(2, -53),
     1.0 - math.pow(2, -53),
     1.0 + math.pow(2, -52),
     math.pow(2, -500),
     math.pow(2, 500),
-    2,
-    0.5,
-    3,
-    1.5,
-    0.1,
-    0.3,
-    0.7]
+    2, 0.5, 3, 1.5, 0.1, 0.3, 0.7]
+
 for i in xrange(0, 20):
     testValues.append(random())
     testValues.append(random() * math.pow(2, 1000 * random() - 500))
